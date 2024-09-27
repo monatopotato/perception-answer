@@ -14,3 +14,8 @@ Methodology:
   ![edged](https://github.com/user-attachments/assets/6563532f-710e-4c8d-b65e-837f70b361b6)
 
 Once I obtained this, I created a method that would calculate the mid points of each of the clusters by filtering out close points so there was only 1 point per cone. This would allow me to find a general location of where each cone is and allow me to draw a line through each of the cones once I find the midpoint of each of the cones. Once I found the midpoints of each cone I found the slope of both sides of the cones and then drew the lines accordingly.
+
+
+At first I tried creating an AI model which would be more accurate than the method I created, but I realized how time consuming, slow and heavy it is to a computer which strives for efficiency. If this was a powerful computer that can easily run an AI model from a live camera, my first option would be more efficient and accurate.
+
+I used the cv2 and numpy libraries for this project.
