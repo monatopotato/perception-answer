@@ -8,7 +8,6 @@
 # Import statements
 import cv2
 import numpy as np
-import pyautogui
 
 # path to original red.png image and load into code and resize
 original_image = cv2.imread('C:/Users/manat/WISC_autonomous/red.png')
@@ -157,6 +156,5 @@ cv2.line(original_image, (top_left_x, top_left_y), (btm_right_x, btm_right_y), (
 
 # displays image with the lines
 cv2.imshow('Contours', original_image) 
-cv2.imwrite('C:/Users/manat/WISC_autonomous/answer.png', original_image)
 cv2.waitKey(0) 
 cv2.destroyAllWindows() 
